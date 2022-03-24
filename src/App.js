@@ -27,7 +27,30 @@ const DUMMY_EXPENSES = [
     title: "New Desk (Wooden)",
     amount: 450,
     date: new Date(2020, 5, 12),
+  },{
+    id: "e5",
+    title: "PaperBoat",
+    amount: 94.12,
+    date: new Date(2021, 9, 14),
   },
+  { 
+    id: "e6", 
+    title: "New Fridge", 
+    amount: 799.49, 
+    date: new Date(2021, 7, 12) 
+  },
+  {
+    id: "e7",
+    title: "Car",
+    amount: 294.67,
+    date: new Date(2019, 6, 28),
+  },
+  {
+    id: "e8",
+    title: "Wooden Chair",
+    amount: 450,
+    date: new Date(2019, 3, 12),
+  }
 ];
 
 function App() {
